@@ -1,0 +1,25 @@
+.logo {
+  max-width: 5rem;
+}
+
+.linkList {
+  list-style-type: none;
+}
+
+.desktopNav {
+  z-index: 2;
+  top: 0px;
+}
+
+.desktopNav ul {
+  flex: 1;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.desktopNav ul li {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}

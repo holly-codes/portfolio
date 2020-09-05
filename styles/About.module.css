@@ -1,0 +1,42 @@
+.sidebar {
+  min-height: 75vh;
+  width: 15vw;
+  padding-left: 5rem;
+  border-left: 1px solid darkgrey;
+  display: flex;
+  flex: 1;
+  justify-items: center;
+}
+
+.content {
+  min-height: 75vh;
+  width: 35vw;
+  padding-right: 5rem;
+  line-height: 1.15rem;
+}
+
+.wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  padding-left: 25vw;
+  padding-right: 25vw;
+}
+
+.profileImage {
+  max-width: 20rem;
+  max-height: 20rem;
+  clip-path: circle(50% at 50% 50%);
+}
+
+.stats {
+  padding-top: 5rem;
+  align-self: flex-end;
+}
+
+.stats ul {
+  list-style: none;
+}
+
+.main {
+}
