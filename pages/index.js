@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <Navigation></Navigation>
-        <h1 className={styles.title}>Hi! I'm Holly Burinda.</h1>
+        <h1 className={styles.title}>Hi! I'm Holly.</h1>
         <h2 className={styles.subtitle}>Let's build something together.</h2>
       </main>
     </div>

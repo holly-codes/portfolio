@@ -18,7 +18,7 @@ function About() {
           <div className={styles.content}>
             <h1>Hi! Nice to meet you!</h1>
             <h2>I'm Holly.</h2>
-            <p>That's me, just over there in the sidebar. </p>
+            <p>You probably knew that, though, since you ended up here.</p>
             <h2>I'm a developer.</h2>
             <p>
               I graduated with a bachelor's in Computer Science in 2012 from the
