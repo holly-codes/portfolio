@@ -87,7 +87,7 @@ function About() {
                 </li>
                 <li>
                   <label>Dislikes:</label>
-                  <p>Overly-complicated UX</p>
+                  <p>Overly-complicated UX, seafood</p>
                 </li>
               </ul>
             </div>
