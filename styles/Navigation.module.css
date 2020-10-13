@@ -1,11 +1,3 @@
-.logo {
-  max-width: 5rem;
-}
-
-.linkList {
-  list-style-type: none;
-}
-
 .desktopNav {
   z-index: 2;
   top: 0px;
@@ -22,4 +14,24 @@
 .desktopNav ul li {
   padding-left: 3rem;
   padding-right: 3rem;
+}
+
+@media (min-width: 900px) {
+  .desktopNav {
+    display: flex;
+  }
+
+  .mobileNav {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .desktopNav {
+    display: none;
+  }
+
+  .mobileNav {
+    display: flex;
+  }
 }

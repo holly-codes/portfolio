@@ -6,6 +6,17 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+body {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/*  Everything inside the body */
+body > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
 a {
   color: inherit;
   text-decoration: none;

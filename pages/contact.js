@@ -1,5 +1,6 @@
 import utils from "../styles/utils.module.css";
 import Navigation from "../components/navigation";
+import Footer from "../components/footer";
 import Head from "next/head";
 
 function Contact() {

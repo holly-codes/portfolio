@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  justify-items: center;
+  margin-bottom: auto;
+  position: 100vh;
+}
+
+.footer a i,
+.footer a img {
+  max-width: 4rem;
+  padding: 2rem;
+}

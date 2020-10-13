@@ -1,6 +1,7 @@
 import utils from "../styles/utils.module.css";
 import styles from "../styles/About.module.css";
 import Navigation from "../components/navigation";
+import Footer from "../components/footer";
 import Head from "next/head";
 import Link from "next/link";
 
@@ -16,6 +17,11 @@ function About() {
         <Navigation></Navigation>
         <div className={styles.wrapper}>
           <div className={styles.content}>
+            <img
+              src="/images/me.jpg"
+              alt="Holly in a bridesmaid dress, looking left and smiling"
+              className={styles.profileImage}
+            />
             <h1>Hi! Nice to meet you!</h1>
             <h2>I'm Holly.</h2>
             <p>You probably knew that, though, since you ended up here.</p>
@@ -60,16 +66,11 @@ function About() {
             </p>
           </div>
           <div className={styles.sidebar}>
-            <img
-              src="/images/me.jpg"
-              alt="Holly in a bridesmaid dress, looking left and smiling"
-              className={styles.profileImage}
-            />
             <div className={styles.stats}>
               <h3>Stats!</h3>
               <ul>
                 <li>
-                  <label>Name:</label> <p>Holly Burinda</p>
+                  <label>Name:</label> <p>Holly</p>
                 </li>
                 <li>
                   <label>Graduated:</label>
