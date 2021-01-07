@@ -354,7 +354,7 @@ function Resume() {
             </div>
           </div>
           <div className={styles.resumeSection}>
-            <span className={styles.dashedHeader}>
+            <span className={utils.dashedHeader}>
               <h2>Education</h2>
             </span>
             <h3>University of New Haven</h3>
