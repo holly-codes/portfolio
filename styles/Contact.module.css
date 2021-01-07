@@ -1,0 +1,9 @@
+.contactContent {
+  line-height: 1.15rem;
+  display: flex;
+  margin: 5rem;
+  margin-top: 1rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  order: 1;
+}
