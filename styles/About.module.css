@@ -1,6 +1,8 @@
 .content {
   line-height: 1.15rem;
   display: flex;
+  margin: 5rem;
+  margin-top: 1rem;
   flex-direction: column;
   flex-wrap: wrap;
   order: 1;
@@ -8,11 +10,14 @@
 
 .sidebar {
   background-color: #eee6ff;
+  margin: 1rem;
+  min-width: 20rem;
   order: 2;
 }
 
 .wrapper {
   display: flex;
+  flex-wrap: wrap;
   /* flex-flow: row wrap; */
 }
 
@@ -29,9 +34,14 @@
   text-align: center;
 }
 
+.stats {
+  display: flex;
+}
+
 .stats h3 {
   border-bottom: 1px solid darkgrey;
   text-align: center;
+  width: 100%;
 }
 
 .stats ul {
@@ -40,7 +50,13 @@
 }
 
 .stats ul li {
+  flex: auto-fill;
   width: 100%;
+}
+
+.stats ul li label {
+  width: 100%;
+  border-bottom: 1px solid darkgrey;
 }
 
 .main {
@@ -49,6 +65,7 @@
 @media all and (min-width: 500px) {
   .sidebar {
     flex: 1 0 0;
+    order: 2;
   }
 }
 

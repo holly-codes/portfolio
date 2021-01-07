@@ -33,15 +33,17 @@ function About() {
               custom libraries on top) and have worked my way up to now working
               on Sitecore sites. I've worked on some pretty snazzy sites, which
               you can see over on my{" "}
-              <Link href="/experience">
-                <a>Experience & Projects</a>
-              </Link>{" "}
+              <span className={utils.magicalUnderline}>
+                <Link href="/projects">
+                  <a>Experience & Projects</a>
+                </Link>
+              </span>{" "}
               page. I've been a backend developer mostly, professionally - but
               I'm never satisfied with my skills, and don't want to stop there.
               So, in a bid to expand my skills, I'm learning how to do more
               full-stack JavaScript development and more front-end technologies.
             </p>
-            <h2>What're you learning?</h2>
+            <h2>What am I learning?</h2>
             <p>
               Well, right now, I'm learning *gestures broadly at everything*{" "}
               <i>this</i>. This site is a pet project that I used to learn HTML,
@@ -49,49 +51,27 @@ function About() {
             </p>
             <p>
               My pet projects live over on the{" "}
-              <Link href="/projects">
-                <a>Experience & Projects</a>
-              </Link>{" "}
+              <span className={utils.magicalUnderline}>
+                <Link href="/projects">
+                  <a>Experience & Projects</a>
+                </Link>
+              </span>{" "}
               page, go check them out to see the random things I've done to
               practice my skills!
             </p>
-            <h2>What else should I know about you?</h2>
+            <h2>What else should you know about me?</h2>
             <p>
-              I'm always looking to build cool stuff. If you think my skills and
+              I'm always looking to build cool stuff. I'm constantly learning
+              and working to better myself, and I have a passion for building
+              cool stuff that is easy to use. If you think my skills and
               experience would be a fit for you, head over to my{" "}
-              <Link href="/contact">
-                <a>Contact</a>
-              </Link>{" "}
+              <span className={utils.magicalUnderline}>
+                <Link href="/contact">
+                  <a>Contact</a>
+                </Link>
+              </span>{" "}
               page and let's chat!
             </p>
-          </div>
-          <div className={styles.sidebar}>
-            <div className={styles.stats}>
-              <h3>Stats!</h3>
-              <ul>
-                <li>
-                  <label>Name:</label> <p>Holly</p>
-                </li>
-                <li>
-                  <label>Graduated:</label>
-                  <p>2012</p>
-                </li>
-                <li>
-                  <label>Years of Professional Experience:</label>
-                  <p>8</p>
-                </li>
-                <li>
-                  <label>Likes:</label>
-                  <p>
-                    Roller derby, sour beer, reading, spooky stuff, knitting
-                  </p>
-                </li>
-                <li>
-                  <label>Dislikes:</label>
-                  <p>Overly-complicated UX, seafood</p>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </main>

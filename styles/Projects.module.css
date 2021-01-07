@@ -1,0 +1,66 @@
+.content {
+  line-height: 1.15rem;
+  display: flex;
+  margin: 5rem;
+  margin-top: 1rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  order: 1;
+}
+
+.content h2 {
+  margin-top: 2rem;
+}
+
+.projectsContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-wrap: column;
+  align-items: center;
+  flex-flow: column;
+}
+
+.projectCard {
+  display: flex;
+  margin-top: 2rem;
+  flex: 1;
+  width: 100%;
+  padding: 2rem;
+  flex-wrap: wrap;
+  border: 1px solid lightgrey;
+  border-radius: 25px;
+}
+
+.projectCard img {
+  width: 40%;
+  align-self: flex-start;
+}
+
+.technologies {
+  list-style: none;
+}
+
+.projectInfo {
+  flex: 2;
+  margin-left: 2rem;
+}
+
+.technologies li {
+  margin-left: 0;
+}
+
+.technologies li::marker {
+  content: "✨";
+}
+
+@media (max-width: 900px) {
+  .projectInfo {
+    flex: 1;
+    margin-left: 0;
+  }
+
+  .projectCard img {
+    width: 100%;
+  }
+}

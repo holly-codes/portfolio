@@ -24,6 +24,33 @@
   margin-top: 3rem;
 }
 
+.dashedHeader {
+  width: 100%;
+  border-bottom: 3px dashed lightgrey;
+}
+
+.magicalUnderline a {
+  color: #6d6285;
+}
+
+.magicalUnderline a:hover,
+.magicalUnderline a:focus {
+  color: black;
+}
+
+.magicalUnderline {
+  background-image: linear-gradient(120deg, #a393c4 0%, #eee6ff 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
+
+.magicalUnderline:hover,
+.magicalUnderline:focus-within {
+  background-size: 125% 100%;
+}
+
 .card {
   margin: 1rem;
   flex-basis: 45%;
