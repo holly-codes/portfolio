@@ -1,8 +1,8 @@
+import styles from "../styles/MobileNavigation.module.css";
+import Link from "next/link";
+
 function MobileNavigation() {
-  return (
-    <nav className={styles.desktopNav}>
-      <NavigationLinks></NavigationLinks>
-    </nav>
-  );
+  return <div className={styles.demoMenu}></div>;
 }
+
 export default MobileNavigation;

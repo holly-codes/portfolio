@@ -16,7 +16,7 @@
   padding-right: 3rem;
 }
 
-@media (min-width: 900px) {
+/* @media (min-width: 900px) {
   .desktopNav {
     display: flex;
   }
@@ -34,4 +34,4 @@
   .mobileNav {
     display: flex;
   }
-}
+} */

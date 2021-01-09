@@ -1,0 +1,18 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "functions": {
+    "predeploy": [
+      "npm run build && npm run export"
+    ]
+  },
+  "hosting": {
+    "public": "out",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
