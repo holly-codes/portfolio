@@ -59,9 +59,6 @@
   border-bottom: 1px solid darkgrey;
 }
 
-.main {
-}
-
 @media all and (min-width: 500px) {
   .sidebar {
     flex: 1 0 0;

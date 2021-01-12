@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Navigation from "../components/navigation";
-import MobileNavigation from "../components/mobile-navigation";
 import Footer from "../components/footer";
 import styles from "../styles/Resume.module.css";
 import utils from "../styles/utils.module.css";
