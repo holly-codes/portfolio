@@ -26,7 +26,7 @@ function Projects() {
                 alt="Screenshot of UChicago Medicine Forefront page"
               />
               <div className={styles.projectInfo}>
-                <h3>University of Chicaco Medicine - Forefront</h3>
+                <h3>University of Chicago Medicine - Forefront</h3>
                 <span className={utils.magicalUnderline}>
                   <Link href="https://www.uchicagomedicine.org/forefront">
                     <a>Website</a>
@@ -41,14 +41,13 @@ function Projects() {
                 </ul>
                 <p>
                   The Forefront Website (contained within the Website 2.0
-                  experience, at https://www.uchicagomedicine.org/forefront) is
-                  a content hub/blog website built on the Sitecore CMS. Nearly
-                  every element of this website was built by me, aside from the
-                  site-wide search functionality. The website is designed to
-                  allow content authors to add new article items, then
-                  categorize them into a primary “channel” which acts as a feed
-                  for all of the articles that are tagged with the corresponding
-                  taxonomy tag.
+                  experience, explained below) is a content hub/blog website
+                  built on the Sitecore CMS. Nearly every element of this
+                  website was built by me, aside from the site-wide search
+                  functionality. The website is designed to allow content
+                  authors to add new article items, then categorize them into a
+                  primary “channel” which acts as a feed for all of the articles
+                  that are tagged with the corresponding taxonomy tag.
                 </p>
                 <p>
                   I used TDS for serialization and version control of Sitecore

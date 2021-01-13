@@ -7,14 +7,14 @@
   min-width: 100vw;
 }
 
-.navigation ul {
+.linkContainer {
+  display: flex;
   align-self: flex-end;
-  justify-self: flex-end;
   flex: 1;
 }
 
 .navigation ul li {
-  flex: 1;
+  margin: 1rem;
 }
 
 .navigation img {
@@ -26,8 +26,7 @@
   flex: 1;
   flex-direction: row;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-right: 2rem;
   list-style-type: none;
 }
 
