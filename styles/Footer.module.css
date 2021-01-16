@@ -21,3 +21,7 @@
 .footer a {
   padding: 2rem;
 }
+
+.footerLinks svg {
+  min-height: 1rem;
+}
