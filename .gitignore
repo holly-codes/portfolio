@@ -36,5 +36,4 @@ yarn-error.log*
 firebase-debug.log
 
 .cache
-.firebase/hosting.b3V0.cache
-.firebase/hosting.b3V0.cache
+.firebase
