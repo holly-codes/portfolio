@@ -20,11 +20,12 @@ h5 {
 body {
   display: flex;
   flex-flow: row wrap;
+  height: 100%;
 }
 
-/*  Everything inside the body */
-body > * {
-  flex: 1 100%;
+main {
+  flex: 1 0 auto;
+  min-height: auto;
 }
 
 a {

@@ -366,6 +366,7 @@ function Resume() {
             </ul>
           </div>
         </div>
+        <Footer></Footer>
       </main>
     </div>
   );

@@ -6,4 +6,5 @@
   flex-direction: column;
   flex-wrap: wrap;
   order: 1;
+  flex: 1;
 }

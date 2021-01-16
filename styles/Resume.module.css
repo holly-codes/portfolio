@@ -39,3 +39,9 @@
 .technologies li::marker {
   content: "✨";
 }
+
+@media all and (max-width: 900px) {
+  .resumeContent {
+    margin: 1rem;
+  }
+}

@@ -60,6 +60,10 @@
     margin-left: 0;
   }
 
+  .content {
+    margin: 1rem;
+  }
+
   .projectCard img {
     width: 100%;
   }

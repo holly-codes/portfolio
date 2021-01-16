@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navigation from "../components/navigation";
 import styles from "../styles/Projects.module.css";
+import Footer from "../components/footer";
 import utils from "../styles/utils.module.css";
 import Link from "next/link";
 
@@ -154,6 +155,7 @@ function Projects() {
             </div>
           </div>
         </div>
+        <Footer></Footer>
       </main>
     </div>
   );

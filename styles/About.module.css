@@ -66,6 +66,12 @@
   }
 }
 
+@media all and (max-width: 900px) {
+  .content {
+    margin: 1rem;
+  }
+}
+
 @media all and (min-width: 900px) {
   .content {
     order: 1;

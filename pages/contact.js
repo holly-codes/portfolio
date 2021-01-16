@@ -6,14 +6,13 @@ import styles from "../styles/Contact.module.css";
 
 function Contact() {
   return (
-    <div>
+    <div className={utils.outsideContainer}>
       <Head>
         <title>Contact Me | Holly Codes</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Navigation></Navigation>
       <main>
-        <Navigation></Navigation>
         <div className={styles.contactContent}>
           <h1>Contact Me</h1>
           <p>
@@ -29,6 +28,7 @@ function Contact() {
           </p>
         </div>
       </main>
+      <Footer></Footer>
     </div>
   );
 }

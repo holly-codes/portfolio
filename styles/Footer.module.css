@@ -1,12 +1,23 @@
 .footer {
+  background-color: lightgrey;
   display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
   justify-items: center;
-  margin-bottom: auto;
-  position: 100vh;
+  min-height: 25vh;
 }
 
-.footer a i,
-.footer a img {
-  max-width: 4rem;
+.footerLinks {
+  display: flex;
+  align-content: center;
+  align-self: center;
+}
+
+.copyright {
+  align-self: center;
+}
+
+.footer a {
   padding: 2rem;
 }
