@@ -52,4 +52,8 @@
   .subtitle {
     justify-self: center;
   }
+
+  .title {
+    margin-top: 3rem;
+  }
 }
