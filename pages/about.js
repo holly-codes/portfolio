@@ -1,7 +1,7 @@
-import utils from "../../styles/utils.module.css";
-import styles from "../../styles/About.module.css";
-import Navigation from "../../components/navigation";
-import Footer from "../../components/footer";
+import utils from "../styles/utils.module.css";
+import styles from "../styles/About.module.css";
+import Navigation from "../components/navigation";
+import Footer from "../components/footer";
 import Head from "next/head";
 import Link from "next/link";
 
