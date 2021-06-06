@@ -17,7 +17,9 @@ The current live site was inspired by a design on Dribbble, but the new one is a
 
 # In Progress
 
-- The redesign!
+The redesign! This includes changing up the aesthetic to make it more what I like, as well as refactoring to utilize SCSS and make better use of Flexbox. Potentially, even change Flexbox out for Grid - unsure as of yet.
+
+I'll also be redoing my resume to make it .... well, a little more fun. It's quite dry right now, to say the least.
 
 # Future State
 
