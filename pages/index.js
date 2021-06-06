@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import utils from "../styles/utils.module.css";
 import Footer from "../components/footer";
@@ -31,8 +32,14 @@ export default function Home() {
 
       <Navigation></Navigation>
       <main className={styles.main}>
-        <h1 className={styles.title}>Hi! I'm Holly.</h1>
-        <h2 className={styles.subtitle}>Let's build something together.</h2>
+        <img
+          src="/images/home-hero-2.jpeg"
+          alt="a hand holding lavender near a black candle"
+        ></img>
+        <div className={styles.heroContent}>
+          <h1 className={styles.title}>Hi! I'm Holly.</h1>
+          <h2 className={styles.subtitle}>Let's build something together.</h2>
+        </div>
       </main>
     </div>
   );

@@ -1,6 +1,6 @@
 # Portfolio
 
-This is the GitHub repo for my portfolio site, hosted on holly-codes.com.
+This is the GitHub repo for my portfolio site, hosted on holly-codes.com. This branch in particular is an in-progress redesign.
 
 # Technologies
 
@@ -13,23 +13,17 @@ Currently using:
 
 # Design
 
-Homepage inspired by a design I saw on Dribbble, [found here](https://dribbble.com/shots/6130245-LW-3D-Motion-Hero-Banner). Otherwise, I took inspiration from the aesthetic to make it my own.
+The current live site was inspired by a design on Dribbble, but the new one is all me and my mediocre design skills, designed on the fly.
 
 # In Progress
 
-- More pages. The routing is there, but the content is not.
-- Mobile navigation
+- The redesign!
 
 # Future State
 
-I want to add a few things to this site before really launching it, including:
+I want to add a few things! Just a few.
 
 - Dynamic PDF generation of my resume page
+- Componentization of the head by adding React Helmet
 - Contact form that submits to my email, instead of requiring you to email me
-- Links to GitHub, Codepen, etc. in the footer
-- Copyright statement also in the footer
-
-I want to do some refactors to make this better, including:
-
-- More componentization. Currently, the site is mainly vanilla HTML and I'd like to fix that and really use the power of NextJS and ReactJS.
-- Better use of Flexbox and CSS Grid instead of margins and padding.
+- Cooler components - I want to add things like a horizontal accordion showing you project stats of each project in my portfolio (or possibly one segment per project), a nifty hero, redo my navigation, and make my footer look prettier
