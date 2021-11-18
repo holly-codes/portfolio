@@ -40,7 +40,7 @@ function Projects() {
           <div className={styles.projectsContainer}>
             <div className={styles.projectCard}>
               <img
-                src="/images/forefront.png"
+                src="/images/iRobot.png"
                 alt="Screenshot of iRobot Homepage"
               />
               <div className={styles.projectInfo}>
