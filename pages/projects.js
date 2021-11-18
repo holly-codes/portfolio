@@ -41,6 +41,74 @@ function Projects() {
             <div className={styles.projectCard}>
               <img
                 src="/images/forefront.png"
+                alt="Screenshot of iRobot Homepage"
+              />
+              <div className={styles.projectInfo}>
+                <h3>iRobot - Brand Refresh Project</h3>
+                <span className={utils.magicalUnderline}>
+                  <Link href="https://www.irobot.com">
+                    <a>Website</a>
+                  </Link>
+                </span>
+                <h4>Technologies Used:</h4>
+                <ul className={styles.technologies}>
+                  <li>HTML5</li>
+                  <li>SASS</li>
+                  <li>Flexbox</li>
+                </ul>
+                <p>
+                  In mid-2021, iRobot released a new version of their website UX, including new brand colors and new renderings. I made many contributions
+                  to this project, including the restyling of many of the elements of the website to use new brand colors, fonts, and style standards.
+                </p>
+                <p>
+                  I updated the look and feel of many components of the site in the brand refresh, including:
+                  <ul>
+                    <li>The header navigation on desktop and mobile</li>
+                    <li>The family tiles rendering, displaying the various product series on the homepage</li>
+                    <li>The footer</li>
+                    <li>The link button in the header</li>
+                    <li>Product tiles on series pages, such as <Link href="https://www.irobot.com/roomba/s-series"><a>Website</a></Link></li>
+                    <li>Many updates to personalization platform components</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+            <div className={styles.projectCard}>
+              <img
+                src="/images/ucm-home.png"
+                alt="Screenshot of UChicago Medicine homepage"
+              />
+              <div className={styles.projectInfo}>
+                <h3>University of Chicago Medicine</h3>
+                <span className={utils.magicalUnderline}>
+                  <Link href="https://www.uchicagomedicine.org">
+                    <a>Website</a>
+                  </Link>
+                </span>
+                <h4>Technologies Used:</h4>
+                <ul className={styles.technologies}>
+                  <li>Sitecore 8.2</li>
+                  <li>Glass.Mapper</li>
+                  <li>TDS</li>
+                  <li>C#.NET</li>
+                </ul>
+                <p>
+                  The Website 2.0 project was a massive redesign of the current
+                  UChicago Medicine main website. This included a suite of
+                  search tools (for physicians, conditions, and locations, as
+                  well as a site-wide search tool), physician profiles, a
+                  scheduled physician data ingestion process, and over a dozen
+                  content display modules. I was the technical lead and site
+                  architect for this project, which entailed overseeing two
+                  other developers and architecting both the content authoring
+                  experience and the functional user experience of the frontend
+                  of the website.
+                </p>
+              </div>
+            </div>
+            <div className={styles.projectCard}>
+              <img
+                src="/images/forefront.png"
                 alt="Screenshot of UChicago Medicine Forefront page"
               />
               <div className={styles.projectInfo}>
@@ -79,39 +147,6 @@ function Projects() {
                   completion, was in process of implementing new Jira process
                   and process for Jira and Bitbucket/Git to enable
                   co-development with client developers.
-                </p>
-              </div>
-            </div>
-            <div className={styles.projectCard}>
-              <img
-                src="/images/ucm-home.png"
-                alt="Screenshot of UChicago Medicine homepage"
-              />
-              <div className={styles.projectInfo}>
-                <h3>University of Chicago Medicine</h3>
-                <span className={utils.magicalUnderline}>
-                  <Link href="https://www.uchicagomedicine.org">
-                    <a>Website</a>
-                  </Link>
-                </span>
-                <h4>Technologies Used:</h4>
-                <ul className={styles.technologies}>
-                  <li>Sitecore 8.2</li>
-                  <li>Glass.Mapper</li>
-                  <li>TDS</li>
-                  <li>C#.NET</li>
-                </ul>
-                <p>
-                  The Website 2.0 project was a massive redesign of the current
-                  UChicago Medicine main website. This included a suite of
-                  search tools (for physicians, conditions, and locations, as
-                  well as a site-wide search tool), physician profiles, a
-                  scheduled physician data ingestion process, and over a dozen
-                  content display modules. I was the technical lead and site
-                  architect for this project, which entailed overseeing two
-                  other developers and architecting both the content authoring
-                  experience and the functional user experience of the frontend
-                  of the website.
                 </p>
               </div>
             </div>
