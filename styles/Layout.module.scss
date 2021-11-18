@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+  img {
+    object-fit: fill;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  }
+}

@@ -21,6 +21,11 @@ body {
   display: flex;
   flex-flow: row wrap;
   height: 100%;
+
+  & > div {
+    // NextJS wasn't rendering a full width outer div, so this is to fix that.
+    width: 100%;
+  }
 }
 
 main {

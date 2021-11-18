@@ -47,8 +47,8 @@ function About() {
               I graduated with a bachelor's in Computer Science in 2012 from the
               University of New Haven. I started my career working on Lotus
               Notes applications, using LotusScript (basically VB6 with some
-              custom libraries on top) and have worked my way up to now working
-              on Sitecore sites. I've worked on some pretty snazzy sites, which
+              custom libraries on top), worked my way up to working
+              on Sitecore sites, and now have worked my way into being a full-stack developer. I've worked on some pretty snazzy sites, which
               you can see over on my{" "}
               <span className={utils.magicalUnderline}>
                 <Link href="/projects">
