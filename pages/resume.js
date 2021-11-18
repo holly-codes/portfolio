@@ -36,36 +36,13 @@ function Resume() {
           <h1>Resume</h1>
           <div className={styles.resumeSection}>
             <span className={utils.dashedHeader}>
-              <h2>Summary</h2>
-            </span>
-            <p>
-              I am a developer experienced in the web application development
-              sphere, looking to expand my horizons and engineering and
-              architecture skills. I am passionate about developing good
-              products and writing good, clean, and maintainable code, and am
-              looking for a development team that feels the same way about
-              software development that I do. I am always learning, and am
-              committed to bettering myself and filling in any holes in
-              knowledge that I might have, be they in the programming languages
-              I know, in the nitty-gritty of computer science, or anywhere in
-              between.
-            </p>
-          </div>
-          <div className={styles.resumeSection}>
-            <span className={utils.dashedHeader}>
               <h2>Technical Skills</h2>
             </span>
             <p>
-              C#, ASP.NET MVC, WebAPI, SQL, Sitecore Content Management System
-              (CMS) versions 8.2, 9.0, and 9.3, Unicorn, Synthesis, Bamboo,
-              Octopus, Azure PaaS, Hedgehog Team Development for Sitecore (TDS),
-              Glass.Mapper, Git version control, SOLID programming, unit
-              testing, JavaScript, JQuery, T-SQL, AJAX, Scrum (Agile),
-              Test-Driven Development (TDD)
-            </p>
-            <p>
-              <em>Limited experience with: </em>ReactJS, NextJS, Gulp, NodeJS,
-              Webpack, HTML5, CSS3, Bootstrap 4, LESS
+              HTML, CSS, SASS, JavaScript, Flexbox, Git version control, Atomic Design Systems (PatternLab, Storybook), 
+              Interaction Studio (formerly Evergage), GatsbyJS, NextJS, ReactJS, C#, ASP.NET MVC, WebAPI, SQL, 
+              Sitecore CMS versions 8.2, 9.0, 9.1, and 9.3, Unicorn, Synthesis, Bamboo, Octopus, Azure PaaS, 
+              UltraDNS administration, Hedgehog Team Development for Sitecore (TDS), Glass.Mapper, Scrum, Test-Driven Development (TDD), Jira
             </p>
             <p>
               <em>Additional certifications: </em>Sitecore 8.2 certified
@@ -81,7 +58,7 @@ function Resume() {
                 <h3 className={styles.companyName}>iRobot Corporation</h3>
                 <p>
                   <strong className={styles.jobTitle}>
-                    Senior Sitecore Engineer, Digital Technology
+                    Senior Web Developer, Digital Business
                   </strong>
                   &nbsp;
                   <em className={styles.datesOfEmployment}>
@@ -90,31 +67,99 @@ function Resume() {
                 </p>
                 <h4>Job Responsibilities</h4>
                 <p>
-                  Responsible for the development of backend code and
-                  functionality for all 36 worldwide iRobot websites, and for
-                  some backend functionality on other iRobot-owned websites and
-                  domains. Contribute to process improvements and upholding
-                  process, as well as the build process and code management
-                  strategies. Contribute to architectural decisions for new
-                  features and functionality, and take technical responsibility
-                  for new projects and initiatives. Ensure that best code
-                  practices are followed.
+                  I am currently a technical lead responsible for architecture and implementation of new functionality for 
+                  iRobot’s system of websites worldwide. In addition, I am a developer working on iRobot’s frontend atomic design system, 
+                  implementing new functionality and modifying existing functionality, using HTML, SASS, Flexbox, and JavaScript.  
+                  My work also extends to our personalization and A/B testing platform, Interaction Studio, which is a CSS and JavaScript based platform. 
+                  I have performed extensive revisions to our Interaction Studio sitemap, which collects attributes to be used by the platform, 
+                  automatically populates catalog information for various products for use in personalization and testing efforts, 
+                  and establishes content zones for use by Interaction Studio to inject content as outlined in campaigns set up in the platform.
                 </p>
-                <h4>Technologies Used</h4>
+                <h4>Awards</h4>
                 <ul className={styles.technologies}>
                   <li>
-                    Used Unicorn for serialization and version control of
-                    Sitecore items in conjunction with Synthesis to allow for
-                    strongly-typed code within the Sitecore projects.
-                  </li>
-                  <li>Used Git version control.</li>
-                  <li>
-                    Used Sitecore Federated Experience Manager to deliver
-                    features and functionality across several sites.
+                   <em>Finance Team Excellence award winner (2021)</em> - Organizational excellence awards are peer-nominated and 
+                    given once per quarter to a handful of teams and individuals in the organization for outstanding work. This award was for 
+                    my team’s work in iRobot’s direct to consumer work. I did a great deal of work on this project to shore up the infrastructure to 
+                    ensure that the sites could handle the increased load, as well as developed several renderings to enhance customer experience.
                   </li>
                   <li>
-                    Extensive use of C#.Net, JavaScript, Sitecore 9.0.2 CMS,
-                    Azure PaaS, AzureSQL, Bamboo, and Octopus.
+                      <em>Supply Chain Team Excellence award winner (2021)</em> - This is the same type of organizational award as the above. 
+                      This award was given to my team for our work on the brand refresh effort, the most recent website look and feel refresh. 
+                      My primary contribution on this project was CSS/SASS/JavaScript work across both the Interaction Studio and Sitecore platforms. 
+                      In addition, I developed a complex horizontal accordion rendering to display product cards to users to maximize the content shown in a 
+                      relatively small space, among other renderings.
+                  </li>
+                  <li>
+                    <em>Chairman’s Award individual nominee (2021)</em> - The Chairman’s Award is a prestigious peer-nominated award that is given to roughly a 
+                    dozen people and teams per year out of iRobot’s 1000+ employees. I was individually nominated in 2021 for a Chairman’s Award.
+                  </li>
+                </ul>
+                <h4>Key Accomplishments</h4>
+                <ul className={styles.technologies}>
+                  <li>
+                    (In Progress) Migrating current PatternLab atomic design system from Mustache, SASS, and vanilla JavaScript to Storybook 
+                    with ReactJS and SASS, to support a key initiative relating to the fronted repository and Interaction Studio. This will allow 
+                    for version control where there currently is no capability within Interaction Studio, will allow for near-true local development, 
+                    and will allow for an independent build and cache pipeline for compiled CSS and JavaScript assets.
+                  </li>
+                  <li>
+                      Created a proof of concept for the migration of a static website, iRobot Caribbean, using GatsbyJS (ReactJS), GraphQL, SASS, 
+                      Flexbox, and HTML as well as Contentful headless CMS integration for content management. This was part of a strategic effort to 
+                      migrate mostly static sites off of an old version of Sitecore CMS, to reduce hosting costs and reduce the barrier of entry for 
+                      site maintenance efforts.
+                  </li>
+                  <li>
+                      Designed, advocated for, and implemented an internal CDN for CSS and JavaScript assets along with its own dedicated automated 
+                      build pipeline. This decoupled compiled frontend assets from backend CMS code, which greatly enhanced the speed at which these 
+                      assets could be deployed, leading to greater flexibility for frontend asset deployments. This also cached frontend assets separately, 
+                      ensuring that during busier times of year (e.g. holiday) the frontend assets cache could be cleared with minimal performance and 
+                      availability hit to the website as a whole.  
+                  </li>
+                  <li>
+                      Led a multi-month upgrade project from Sitecore version 9.1 to version 9.3. This involved many high level technical and architectural 
+                      decisions, as well as coordination with several team members, review of work, and implementation of some infrastructure changes.
+                  </li>
+                  <li>
+                      Architected and implemented functionality to automatically share pricing and promotional information for products between two different 
+                      platforms, greatly decreasing content work and overhead to update frequently-changing pricing and promotional information during high 
+                      volatility periods.
+                  </li>
+                  <li>
+                      Designed and implemented a robust site search and typeahead API used in the header search functionality across multiple iRobot 
+                      web platforms. This site search API integrates and amalgamates search results from two different platforms (store and support) 
+                      to provide the user with a more streamlined search experience.  
+                  </li>
+                  <li>
+                      Contributed to and launched two separate website redesigns. Both resulted in complete changes in content structure and flow, 
+                      and were effectively brand new website launches. For these website redesigns, I built several new renderings and launched the 
+                      new code and content.  
+                  </li>
+                  <li>
+                      Introduced the Git Flow method of Git branch management to streamline the automated build process, which greatly reduced the 
+                      overhead and developer time spent on deployments.
+                  </li>
+                  <li>
+                      Advocated for several key Agile methodology process improvements, including Jira ticket workflow, retrospective format, 
+                      standup format, deployment cadence, code reviews, and more.
+                  </li>
+                </ul>
+                <h4>Technologies Used</h4>
+                <ul>
+                  <li>
+                      HTML, CSS, SASS, JavaScript in Interaction Studio and atomic design system development (PatternLab)
+                  </li>
+                  <li>
+                      Gulp for CSS/JavaScript asset compilation 
+                  </li>
+                  <li>
+                      Bamboo and Octopus for automated build pipelines
+                  </li>
+                  <li>
+                      Git version control  
+                  </li>
+                  <li>
+                      C#.NET, WebAPI, and Sitecore CMS in Sitecore website architecture and feature building and maintenance
                   </li>
                 </ul>
               </div>
@@ -140,44 +185,14 @@ function Resume() {
                 </p>
                 <h4>Job Responsibilities</h4>
                 <p>
-                  Responsible for the development of client deliverables as
-                  directed by project management and tech leads, as well as
-                  enhancements of existing features. This includes client-facing
-                  communications, design, development, and testing of features,
-                  QA team support, and occasional oversight of other developers
-                  and architectural decision-making. Currently also the
-                  technical lead on a massive website overhaul, responsible for
-                  overseeing two other developers and their work.
+                  I was responsible for the architecture and design of client deliverables, as well as for technical lead responsibilities. 
+                  These technical lead responsibilities included client-facing communications, architecture, development and testing of features, 
+                  QA team support, and oversight of other developers. I was also the technical lead for a $6M website overhaul for a major healthcare 
+                  system in the midwest, which spanned two separate feature-rich websites with complex CMS and code architecture. I was responsible for 
+                  pull request reviews (for coding standards, code cleanliness, consistent content author experience, and consistent code architecture and 
+                  implementation), developer work allocation and balancing against a timeline and budget, requirements refinement, client and developer 
+                  support during co-development, and Agile process ownership.
                 </p>
-                <h4>Technical Lead Responsibilities</h4>
-                <ul className={styles.technologies}>
-                  <li>
-                    Pull request reviews, including reviews for coding
-                    standards, code cleanliness where possible, consistent
-                    content author experience, and consistent code design and
-                    implementation
-                  </li>
-                  <li>
-                    Developer work allocation and balancing to ensure that the
-                    project is on time and on budget. If the project is not on
-                    time and on budget, the technical lead is responsible for
-                    escalating these issues and working with the appropriate
-                    parties to find a resolution
-                  </li>
-                  <li>
-                    Requirements refinement to ensure a comprehensive solution
-                    that meets the needs of the business while also providing an
-                    intuitive content author/client experience
-                  </li>
-                  <li>
-                    Support clients and client developers during co-development
-                  </li>
-                  <li>
-                    Define and own processes for the project, including Jira
-                    usage process, Bitbucket/Git usage process, and work
-                    management process
-                  </li>
-                </ul>
                 <h4>Technologies Used</h4>
                 <ul className={styles.technologies}>
                   <li>
@@ -187,17 +202,14 @@ function Resume() {
                     projects.
                   </li>
                   <li>
-                    Used SSIS for data ingestion processes as well as data
-                    export processes as necessary.
-                  </li>
-                  <li>
-                    Used Git version control for some projects, and Subversion
+                    Git version control for some projects, and Subversion
                     version control for others.
                   </li>
                   <li>
-                    Extensive use of C#, JavaScript, and JQuery, along with
-                    Sitecore CMS and Sitefinity CMS to implement responsive
-                    websites.
+                    Extensive use of C#, WebAPI, JavaScript, and Sitecore CMS and Sitefinity CMS to develop responsive web solutions for clients.
+                  </li>
+                  <li>
+                    Jenkins automated build system  
                   </li>
                 </ul>
                 <h4>Sample Project Portfolio</h4>
@@ -225,47 +237,22 @@ function Resume() {
                 </p>
                 <h4>Job Responsibilities</h4>
                 <p>
-                  Responsible for the development of new features on both the
-                  BennyCentral and 1Cloud platforms, as well as enhancements of
-                  existing features. Responsible for integration between the two
-                  systems, involving development and maintenance of a suite of
-                  web services and file-based batch processing systems.
-                  Responsible for design of database changes/additions for new
-                  features, as well as for maintaining, modifying, and adding
-                  (as needed) stored procedures to the database instances for
-                  data access. Also responsible for supporting the letter
-                  generation system in production, providing scripts to reset
-                  batches when they could not be completed successfully.
-                  Responsibilities also include maintaining and modifying (as
-                  needed) the Agile process that the team follows, including
-                  interfacing with and supporting the business analyst and
-                  quality assurance analyst on the team.
+                  I was responsible for the development of new features on both the BennyCentral and 1Cloud platforms, as well as 
+                  enhancements and maintenance of existing features in a Scrum environment. This included integration between the two systems, 
+                  involving development and maintenance of a suite of web services and file-based batch processing systems. Additionally, I was 
+                  responsible for the design of database changes/additions for new features, as well as for maintaining, modifying, and adding (as needed) 
+                  stored procedures to the database instances for data access.
                 </p>
                 <h4>Technologies Used</h4>
                 <ul className={styles.technologies}>
                   <li>
-                    Extensive use of C#, JavaScript, JQuery, and T-SQL to
-                    develop and maintain both the BennyCentral and 1Cloud
-                    platforms, as well as the integration between the two
-                    systems.
+                    Extensive use of C#, JavaScript, JQuery, and T-SQL
                   </li>
                   <li>
-                    Maintained existing unit tests using NUnit, C#, Moq, and
-                    Rhino.Mocks, as well as developed new unit tests where
-                    appropriate, particularly as part of the TDD process. Used
-                    dependency injection throughout the platform to enable more
-                    extensive unit testing and integration testing. Refactored
-                    legacy unit tests (those using Rhino.Mocks) to fit the new
-                    company standard of using Moq.
+                    Maintained and added to extensive unit testing suite, using NUnit, Moq, and C#
                   </li>
                   <li>
-                    Used Subversion source control for one platform, as well as
-                    Team Foundation Server for source control for the other.
-                  </li>
-                  <li>
-                    Used Team Foundation Server for work item management, and
-                    assisted as a member of the upgrade committee when the
-                    organization decided to upgrade to TFS 2012.
+                    SVN source control for one project, and Team Foundation Server version control
                   </li>
                 </ul>
               </div>
@@ -282,30 +269,17 @@ function Resume() {
                 </p>
                 <h4>Job Responsibilities</h4>
                 <p>
-                  Responsible for the modification and development of
-                  automations that are chiefly requested and used by the Claims
-                  Department at Cigna. Responsibilities also include the
-                  modification of the .Net Dynamic Linked Libraries (DLLs) as
-                  needed. Currently, this entails upgrading applications to use
-                  newer versions of systems that these applications integrate
-                  with.
+                  I was responsible for the modification and development of automations chiefly requested and used by the 
+                  claims department at Cigna. I was also responsible for modifications to compiled code as required, including upgrading 
+                  applications to use newer versions of application integrations.
                 </p>
                 <h4>Technologies Used</h4>
                 <ul className={styles.technologies}>
                   <li>
-                    Used OpenSpan (Enkata) development platform to automate
-                    business processes, including a current ongoing project to
-                    automate one of the largest claim processing business
-                    processes.
+                    C# Script
                   </li>
                   <li>
-                    Worked with C# Script to create scripts to perform small
-                    tasks, such as casting variable types in OpenSpan
-                    automations.
-                  </li>
-                  <li>
-                    Used Subversion/SVN for source and version control for
-                    OpenSpan projects.
+                    SVN version control
                   </li>
                 </ul>
               </div>
@@ -333,38 +307,18 @@ function Resume() {
                 </p>
                 <h4>Job Responsibilities</h4>
                 <p>
-                  Responsible for the full software development life cycle,
-                  everything from gathering requirements for software design
-                  from clients to unit testing the finished product. Additional
-                  responsibilities include providing second level technical
-                  support for the vast Lotus Notes application portfolio owned
-                  by Northeast Utilities.
+                  I was responsible for the full software development lifecycle, from gathering requirements 
+                  from clients to testing and deployment of the final product. Additional responsibilities included 
+                  providing second level technical support for the extensive Lotus Notes application portfolio 
+                  (approximately 300 applications) that was owned by Eversource at the time.
                 </p>
                 <h4>Technologies Used</h4>
                 <ul className={styles.technologies}>
                   <li>
-                    Extensive use of Lotus Notes development platform to create
-                    and modify applications
+                    Lotus Notes platform
                   </li>
                   <li>
-                    Used object-oriented software design principles in Lotus
-                    Notes development, in coding classes to be able to make the
-                    applications more modular and therefore more maintainable.
-                  </li>
-                  <li>
-                    Provided technical support for customers for approximately
-                    300 distinct Lotus Notes applications.
-                  </li>
-                  <li>
-                    Used workflow design skills in designing applications for
-                    Lotus Notes, to design an elegant and efficient workflow
-                    that is maintainable on the code side, but also easily
-                    usable on the client side.
-                  </li>
-                  <li>
-                    Used human-computer interaction (user interface design)
-                    skills to design efficient and easily usable interfaces for
-                    applications.
+                    LotusScript language and @Formula language
                   </li>
                 </ul>
               </div>
