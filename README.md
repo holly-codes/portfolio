@@ -27,7 +27,8 @@ _v. 1.1 (in development)_
 -   Update fonts to be more polished and professional-looking
 -   Refactor to add React Helmet to dynamically generate the `<head>`
 -   Refactor to add a layout that renders child elements on each page instead of rendering the same components over and over again on different pages
--   Better use of Flexbox and CSS Grid instead of margins and padding
+-   Better use of Flexbox instead of margins and padding
+-   Addition of SASS to allow for cleaner and less duplicative code
 
 # Future State
 
