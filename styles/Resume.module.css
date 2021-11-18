@@ -43,8 +43,30 @@
   content: "✨";
 }
 
+.downloadButton{
+    padding: 1rem;
+    background: purple;
+    color: white;
+    border-radius: 15px;
+    font-weight: 900;
+    max-width: 30%;
+    text-align: center;
+}
+
 @media all and (max-width: 900px) {
   .resumeContent {
     margin: 1rem;
+  }
+}
+
+@media all and (max-width: 768px){
+  .downloadButton{
+     max-width: 50%;
+  }
+}
+
+@media all and (max-width: 500px){
+  .downloadButton{
+    max-width: 100%; 
   }
 }
