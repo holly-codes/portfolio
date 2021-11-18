@@ -337,7 +337,7 @@ function Resume() {
             </ul>
           </div>
 
-          <Link href="https://holly-codes.com/Holly-Burinda-Resume-2021.pdf" className={styles.downloadButton} download><a>Download a PDF copy of my resume</a></Link>
+          <Link href="https://holly-codes.com/Holly-Burinda-Resume-2021.pdf" className={styles.downloadButton} download><a>View a PDF copy of my resume</a></Link>
 
         </div>
         <Footer></Footer>
