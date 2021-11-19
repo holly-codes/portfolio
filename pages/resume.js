@@ -121,7 +121,7 @@ function Resume() {
                 <h4>Technologies Used</h4>
                 <ul>
                   <li>
-                      HTML, CSS, SASS, JavaScript in Interaction Studio and atomic design system development (PatternLab)
+                      HTML, CSS, SASS, JavaScript in Interaction Studio and atomic design system development (PatternLab, Storybook)
                   </li>
                   <li>
                       Gulp for CSS/JavaScript asset compilation 
