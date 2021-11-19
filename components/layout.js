@@ -3,7 +3,7 @@ import CustomHead from "../components/customHead";
 import Navigation from "../components/navigation";
 import Footer from "../components/footer";
 
-export default function Layout({pageName, children, showFooter = true}){
+export default function Layout({pageName, children, showFooter = false}){
     let footer;
 
     if(showFooter){

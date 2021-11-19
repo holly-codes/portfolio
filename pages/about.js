@@ -29,16 +29,16 @@ function About() {
                   <a>Experience & Projects</a>
                 </Link>
               </span>{" "}
-              page. I've been a backend developer mostly, professionally - but
-              I'm never satisfied with my skills, and don't want to stop there.
-              So, in a bid to expand my skills, I'm learning how to do more
-              full-stack JavaScript development and more front-end technologies.
+              page. I started my career as a backend developer by trade, then spent the better part of 
+              5 years learning more frontend skills on my own and then pivoted to be a fullstack developer. 
+              Now, I spend my days working in a frontend focused fullstack role, and I absolutely love the 
+              new challenges that this role brings. 
             </p>
             <h2>What am I learning?</h2>
             <p>
-              Well, right now, I'm learning *gestures broadly at everything*{" "}
-              <i>this</i>. This site is a pet project that I used to learn HTML,
-              CSS, Flexbox, and NextJS (and by extension, ReactJS).
+              Well, right now, I'm learning *gestures broadly at this site*{" "}
+              <i>this</i>. This site uses HTML,
+              SASS, Flexbox, GraphQL, and NextJS (and by extension, ReactJS).
             </p>
             <p>
               My pet projects live over on the{" "}

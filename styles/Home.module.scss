@@ -11,6 +11,11 @@
   justify-self: flex-end;
 }
 
+.homeContainer {
+  background-image: url("../public/images/home.jpg");
+  background-position: cover;
+}
+
 .subtitle {
   font-size: 2rem;
   padding-top: 1rem;
