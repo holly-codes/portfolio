@@ -26,7 +26,8 @@ function Navigation() {
               <Link href="/resume">
                 <a>Resume</a>
               </Link>
-            </li> <li>
+            </li> 
+            <li>
               <Link href="/contact">
                 <a>Contact</a>
               </Link>

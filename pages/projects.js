@@ -36,6 +36,7 @@ function Projects() {
                 </p>
                 <p>
                   I updated the look and feel of many components of the site in the brand refresh, including:
+                </p>
                   <ul>
                     <li>The header navigation on desktop and mobile</li>
                     <li>The family tiles rendering, displaying the various product series on the homepage</li>
@@ -44,7 +45,6 @@ function Projects() {
                     <li>Product tiles on series pages, such as <span className={utils.magicalUnderline}><Link href="https://www.irobot.com/roomba/s-series"><a>the Roomba s series page</a></Link></span></li>
                     <li>Many updates to personalization platform components</li>
                   </ul>
-                </p>
               </div>
             </div>
             <div className={styles.projectCard}>
