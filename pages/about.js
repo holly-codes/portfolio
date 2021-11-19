@@ -1,37 +1,11 @@
-import utils from "../styles/utils.module.css";
-import styles from "../styles/About.module.css";
-import Navigation from "../components/navigation";
-import Footer from "../components/footer";
-import Head from "next/head";
+import utils from "../styles/utils.module.scss";
+import styles from "../styles/About.module.scss";
+import Layout from "../components/layout";
 import Link from "next/link";
 
 function About() {
   return (
-    <div>
-      <Head>
-        <title>About | Holly Codes</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/apple-touch-icon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/favicon-16x16.png"
-        />
-      </Head>
-
-      <main className={styles.main}>
-        <Navigation></Navigation>
+    <Layout pageName="About" showFooter="true">
         <div className={styles.wrapper}>
           <div className={styles.content}>
             <img
@@ -91,9 +65,7 @@ function About() {
             </p>
           </div>
         </div>
-        <Footer></Footer>
-      </main>
-    </div>
+      </Layout>
   );
 }
 

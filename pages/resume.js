@@ -1,37 +1,11 @@
-import Head from "next/head";
-import Navigation from "../components/navigation";
-import Footer from "../components/footer";
-import styles from "../styles/Resume.module.css";
-import utils from "../styles/utils.module.css";
+import Layout from "../components/layout";
+import styles from "../styles/Resume.module.scss";
+import utils from "../styles/utils.module.scss";
 import Link from "next/link";
 
 function Resume() {
   return (
-    <div>
-      <Head>
-        <title>Resume | Holly Codes</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/apple-touch-icon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/favicon-16x16.png"
-        />
-      </Head>
-
-      <main>
-        <Navigation></Navigation>
+    <Layout pageName="Resume">
         <div className={styles.resumeContent}>
           <h1>Resume</h1>
           <div className={styles.resumeSection}>
@@ -337,9 +311,7 @@ function Resume() {
             </ul>
           </div>
         </div>
-        <Footer></Footer>
-      </main>
-    </div>
+      </Layout>
   );
 }
 

@@ -1,12 +1,12 @@
-import utils from "../styles/utils.module.css";
+import utils from "../styles/utils.module.scss";
 import Navigation from "../components/navigation";
 import Footer from "../components/footer";
 import Head from "next/head";
-import styles from "../styles/Contact.module.css";
+import styles from "../styles/Contact.module.scss";
 
 function Contact() {
   return (
-    <div className={utils.outsideContainer}>
+    <div className={utils.container}>
       <Head>
         <title>Contact Me | Holly Codes</title>
         <link rel="icon" href="/favicon.ico" />

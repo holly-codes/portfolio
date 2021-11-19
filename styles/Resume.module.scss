@@ -34,23 +34,25 @@
   border-radius: 25px;
 }
 
-.technologies li {
-  padding-left: 0.5rem;
-  margin-bottom: 0.5rem;
+.technologies {
+  li {
+    padding-left: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    &::marker {
+      content: "✨";
+    }
+  }
 }
 
-.technologies li::marker {
-  content: "✨";
-}
-
-.downloadButton{
-    padding: 1rem;
-    background: purple;
-    color: white;
-    border-radius: 15px;
-    font-weight: 900;
-    max-width: 30%;
-    text-align: center;
+.downloadButton {
+  padding: 1rem;
+  background: purple;
+  color: white;
+  border-radius: 15px;
+  font-weight: 900;
+  max-width: 30%;
+  text-align: center;
 }
 
 @media all and (max-width: 900px) {
@@ -59,14 +61,14 @@
   }
 }
 
-@media all and (max-width: 768px){
-  .downloadButton{
-     max-width: 50%;
+@media all and (max-width: 768px) {
+  .downloadButton {
+    max-width: 50%;
   }
 }
 
-@media all and (max-width: 500px){
-  .downloadButton{
-    max-width: 100%; 
+@media all and (max-width: 500px) {
+  .downloadButton {
+    max-width: 100%;
   }
 }

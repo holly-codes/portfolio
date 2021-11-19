@@ -6,22 +6,22 @@
   justify-content: center;
   justify-items: center;
   min-height: 25vh;
+
+  a {
+    padding: 2rem;
+  }
 }
 
 .footerLinks {
   display: flex;
   align-content: center;
   align-self: center;
+
+  svg {
+    height: 2rem;
+  }
 }
 
 .copyright {
   align-self: center;
-}
-
-.footer a {
-  padding: 2rem;
-}
-
-.footerLinks svg {
-  height: 2rem;
 }

@@ -15,11 +15,11 @@
   display: flex;
   flex: 1;
   flex-direction: row;
-}
 
-.mobileHeader i {
-  margin-top: 2rem;
-  margin-left: 2rem;
+  i {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
 }
 
 @media all and (max-width: 900px) {

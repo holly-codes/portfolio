@@ -1,0 +1,52 @@
+.navigation {
+  z-index: 2;
+  top: 0px;
+  flex: 1;
+  flex-direction: row;
+  display: flex;
+  min-width: 100vw;
+
+  ul {
+    li {
+      margin: 1rem;
+    }
+  }
+
+  img {
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+.linkContainer {
+  display: flex;
+  align-self: flex-end;
+  flex: 1;
+}
+
+.linkList {
+  flex: 1;
+  flex-direction: row;
+  display: flex;
+  margin-right: 2rem;
+  list-style-type: none;
+
+  ul {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.logo {
+  max-width: 5rem;
+}
+
+@media (max-width: 900px) {
+  .navigation {
+    ul {
+      li {
+        padding: 0;
+      }
+    }
+  }
+}

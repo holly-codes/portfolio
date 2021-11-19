@@ -1,4 +1,4 @@
-import styles from "../styles/NavigationLinks.module.css";
+import styles from "../styles/NavigationLinks.module.scss";
 import Link from "next/link";
 
 function NavigationLinks() {
