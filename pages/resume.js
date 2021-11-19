@@ -7,7 +7,10 @@ function Resume() {
   return (
     <Layout pageName="Resume">
         <div className={styles.resumeContent}>
-          <h1>Resume</h1>
+          <div className={styles.headerContent}>
+            <h1>Resume</h1>
+            <a href="https://holly-codes.com/Holly-Burinda-Resume-2021.pdf" class={styles.downloadButton} download="Holly Burinda Resume 2021">Download a PDF copy of my resume!</a>
+          </div>
           <div className={styles.resumeSection}>
             <span className={utils.dashedHeader}>
               <h2>Technical Skills</h2>

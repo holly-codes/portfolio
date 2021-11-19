@@ -9,6 +9,12 @@
   order: 1;
 }
 
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .resumeSection {
   display: flex;
   flex: 1;
@@ -47,12 +53,14 @@
 
 .downloadButton {
   padding: 1rem;
-  background: purple;
+  background: #6d6285;
   color: white;
   border-radius: 15px;
   font-weight: 900;
   max-width: 30%;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 @media all and (max-width: 900px) {
