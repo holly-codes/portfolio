@@ -41,7 +41,7 @@ function Projects() {
                     <li>The family tiles rendering, displaying the various product series on the homepage</li>
                     <li>The footer</li>
                     <li>The link button in the header</li>
-                    <li>Product tiles on series pages, such as <Link href="https://www.irobot.com/roomba/s-series"><a>the Roomba s series page</a></Link></li>
+                    <li>Product tiles on series pages, such as <span className={utils.magicalUnderline}><Link href="https://www.irobot.com/roomba/s-series"><a>the Roomba s series page</a></Link></span></li>
                     <li>Many updates to personalization platform components</li>
                   </ul>
                 </p>
