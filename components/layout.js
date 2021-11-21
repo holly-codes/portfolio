@@ -3,7 +3,7 @@ import CustomHead from "../components/customHead";
 import Navigation from "../components/navigation";
 import Footer from "../components/footer";
 
-export default function Layout({pageName, children, showFooter = false}){
+const Layout = ({pageName, children, showFooter = false}) =>{
     let footer;
 
     if(showFooter){
@@ -21,3 +21,5 @@ export default function Layout({pageName, children, showFooter = false}){
         </div>
     );
 }
+
+export default Layout;

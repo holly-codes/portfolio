@@ -4,7 +4,7 @@ import Footer from "../components/footer";
 import Head from "next/head";
 import styles from "../styles/Contact.module.scss";
 
-function Contact() {
+const Contact = () => {
   return (
     <div className={utils.container}>
       <Head>

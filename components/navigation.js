@@ -2,7 +2,7 @@ import styles from "../styles/Navigation.module.scss";
 import HamburgerMenu from "../components/hamburger-menu";
 import Link from "next/link";
 
-export default function Navigation() {
+const Navigation = () => {
   const[open, setNavOpen] = React.useState("");
 
   function toggleOpen(){
@@ -43,3 +43,5 @@ export default function Navigation() {
     </header>
   );
 }
+
+export default Navigation;

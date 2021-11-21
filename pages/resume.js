@@ -3,7 +3,7 @@ import styles from "../styles/Resume.module.scss";
 import utils from "../styles/utils.module.scss";
 import Link from "next/link";
 
-function Resume() {
+const Resume = () => {
   return (
     <Layout pageName="Resume" showFooter="true">
         <div className={styles.resumeContent}>

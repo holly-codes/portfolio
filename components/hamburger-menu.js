@@ -1,6 +1,6 @@
 import styles from '../styles/Hamburger.module.scss';
 
-export default function HamburgerMenu({setMobileNavOpen}) {
+const HamburgerMenu = ({setMobileNavOpen}) => {
     return (
         <button className={styles.hamburger} 
             onClick={setMobileNavOpen}>
@@ -10,3 +10,5 @@ export default function HamburgerMenu({setMobileNavOpen}) {
         </button>
     );
 }
+
+export default HamburgerMenu;

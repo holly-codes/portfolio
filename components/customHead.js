@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-function CustomHead({pageName}) {
+const CustomHead = ({pageName}) => {
     return (
         <Head>
             <title>{pageName} | Holly Codes</title>

@@ -3,7 +3,7 @@ import styles from "../styles/Projects.module.scss";
 import utils from "../styles/utils.module.scss";
 import Link from "next/link";
 
-function Projects() {
+const Projects = () => {
   return (
     <Layout pageName="Projects" showFooter="true">
         <div className={styles.content}>

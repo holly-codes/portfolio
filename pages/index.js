@@ -1,7 +1,7 @@
 import Layout from "../components/layout";
 import styles from "../styles/Home.module.scss";
 
-export default function Home() {
+const Home = () => {
   const pageName = "Home";
   return (
     <div className={styles.homeContainer}> 
@@ -12,3 +12,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;

@@ -3,7 +3,7 @@ import styles from "../styles/About.module.scss";
 import Layout from "../components/layout";
 import Link from "next/link";
 
-function About() {
+const About = () => {
   return (
     <Layout pageName="About" showFooter="true">
         <div className={styles.wrapper}>
