@@ -101,6 +101,11 @@
       opacity: 1;
     }
 
+    &[isHome]{
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+      color: lightgrey;
+    }
+
     li {
       width: 100%;
       border-bottom: 3px dashed lightgrey;
