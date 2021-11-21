@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function Projects() {
   return (
-    <Layout pageName="Projects">
+    <Layout pageName="Projects" showFooter="true">
         <div className={styles.content}>
           <h1>Projects</h1>
           <span className={utils.dashedHeader}>

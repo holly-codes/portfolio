@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function Resume() {
   return (
-    <Layout pageName="Resume">
+    <Layout pageName="Resume" showFooter="true">
         <div className={styles.resumeContent}>
           <div className={styles.headerContent}>
             <h1>Resume</h1>
