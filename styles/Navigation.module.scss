@@ -5,7 +5,13 @@
   flex-direction: row;
   display: flex;
   min-width: 100vw;
-  padding: 2rem 0;
+  margin: 2rem 0;
+  padding-bottom: 1rem;
+  border-bottom: 3px dashed lightgrey;
+
+  @media all and (max-width: 500px){
+    padding-bottom: 0;
+  }
 
   ul {
     li {
@@ -17,14 +23,14 @@
     }
   }
 
-  .headerContent {
+  .headerContent {   
+
     @media all and (max-width: 500px) {
       display: flex;
       flex-direction: row;
       padding-bottom: 2rem;
       align-items: center;
       justify-content: space-between;
-      border-bottom: 3px dashed lightgrey;
     }
   }
 
@@ -102,6 +108,14 @@
       max-height: 0;
       transition: all 0.3s linear;
       opacity: 0;
+
+      &:first-of-type{
+        border-top: 3px dashed lightgrey;
+      }
+
+      &:last-of-type{
+        border-bottom: none;
+      }
 
       [open] & {
         max-height: 500px;

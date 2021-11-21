@@ -1,9 +1,9 @@
 import styles from '../styles/Hamburger.module.scss';
 
-export default function HamburgerMenu({setNavOpen}) {
+export default function HamburgerMenu({setMobileNavOpen}) {
     return (
         <button className={styles.hamburger} 
-            onClick={setNavOpen}>
+            onClick={setMobileNavOpen}>
             <div className={styles.barOne}></div>
             <div className={styles.barTwo}></div>
             <div className={styles.barThree}></div>

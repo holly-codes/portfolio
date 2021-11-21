@@ -3,9 +3,9 @@ import HamburgerMenu from "../components/hamburger-menu";
 import Link from "next/link";
 
 export default function Navigation() {
-  const[open, setNavOpen] = React.useState("open");
+  const[open, setNavOpen] = React.useState("");
 
-  function handleOpenChange(){
+  function toggleOpen(){
     setNavOpen(!open);
   }
 
@@ -18,7 +18,7 @@ export default function Navigation() {
               <img src="/images/logo-larger.png" className={styles.headerImage} />
             </a>
           </Link>
-          <HamburgerMenu setMobileNavOpen={handleOpenChange}/>
+          <HamburgerMenu setMobileNavOpen={toggleOpen}/>
         </div>
         <div className={styles.linkContainer}>
           <ul className={styles.linkList}>
