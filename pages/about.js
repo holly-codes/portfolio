@@ -55,13 +55,13 @@ function About() {
               I'm always looking to build cool stuff. I'm constantly learning
               and working to better myself, and I have a passion for building
               cool stuff that is easy to use. If you think my skills and
-              experience would be a fit for you, head over to my{" "}
+              experience would be a fit for you, {" "}
               <span className={utils.magicalUnderline}>
-                <Link href="/contact">
-                  <a>Contact</a>
+                <Link href="mailto:hello@holly-codes.com">
+                  <a>email me</a>
                 </Link>
               </span>{" "}
-              page and let's chat!
+              and let's chat!
             </p>
           </div>
         </div>
