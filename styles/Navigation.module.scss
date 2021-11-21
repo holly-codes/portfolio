@@ -22,6 +22,7 @@
       flex-direction: row;
       padding: 2rem 0;
       align-items: center;
+      border-bottom: 3px dashed lightgrey;
     }
   }
 
@@ -53,10 +54,18 @@
   display: flex;
   align-self: flex-end;
   flex: 1;
+  max-height: 0;
+  transition: all 0.3s linear;
 
   @media all and (max-width: 500px) {
     align-self: flex-start;
     width: 100%;
+    opacity: 0;
+
+    [open] & {
+      opacity: 1;
+      max-height: 500px;
+    }
   }
 }
 
@@ -75,15 +84,39 @@
     margin: 0;
     padding-left: 0;
     width: 100%;
+    max-height: 0;
+    transition: all 0.3s linear;
+    opacity: 0;
+
+    [open] & {
+      max-height: 500px;
+      opacity: 1;
+    }
 
     li {
       width: 100%;
       border-bottom: 3px dashed lightgrey;
-      padding: 1rem 0 1rem 2rem;
       margin: 0;
+      max-height: 0;
+      transition: all 0.3s linear;
+      opacity: 0;
 
-      &:first-of-type {
-        border-top: 3px dashed lightgrey;
+      [open] & {
+        max-height: 500px;
+        opacity: 1;
+      }
+
+      a{
+        display: block;
+        padding: 1rem 0 1rem 2rem;
+        max-height: 0;
+        transition: all 0.3s linear;
+        opacity: 0;
+
+        @media all and (max-width: 500px){
+          max-height: 500px;
+          opacity: 1;
+        }
       }
     }
   }

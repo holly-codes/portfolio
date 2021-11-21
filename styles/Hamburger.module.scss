@@ -33,25 +33,23 @@
 
   .barTwo {
     opacity: 1;
-    transform: translateX(0);
   }
 
-  .barOne {
+  .barThree {
     transform: rotate(0);
   }
 
-  &.open {
+  [open] & {
     .barOne {
-      transform: rotate(20px);
+      transform: rotate(45deg);
     }
 
     .barTwo {
       opacity: 0;
-      transform: translateX(-50px);
     }
 
     .barThree {
-      transform: rotate(-20px);
+      transform: rotate(-45deg);
     }
   }
 
