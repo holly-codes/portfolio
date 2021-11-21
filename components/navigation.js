@@ -13,12 +13,12 @@ export default function Navigation() {
     <header>
       <nav className={styles.navigation} open={open} >
         <div className={styles.headerContent}>
-          <HamburgerMenu setMobileNavOpen={handleOpenChange}/>
           <Link href="/">
             <a className={styles.homeLink}>
               <img src="/images/logo-larger.png" className={styles.headerImage} />
             </a>
           </Link>
+          <HamburgerMenu setMobileNavOpen={handleOpenChange}/>
         </div>
         <div className={styles.linkContainer}>
           <ul className={styles.linkList}>
