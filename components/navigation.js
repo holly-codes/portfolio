@@ -1,15 +1,19 @@
 import styles from "../styles/Navigation.module.scss";
+import HamburgerMenu from "../components/hamburger-menu";
 import Link from "next/link";
 
-function Navigation() {
+function Navigation({open}) {
   return (
     <header>
       <nav className={styles.navigation}>
-        <Link href="/">
-          <a>
-            <img src="/images/logo-larger.png" className={styles.logo} />
-          </a>
-        </Link>
+        <div className={styles.headerContent}>
+          <HamburgerMenu mobileNavOpen={open}/>
+          <Link href="/">
+            <a className={styles.homeLink}>
+              <img src="/images/logo-larger.png" className={styles.headerImage} />
+            </a>
+          </Link>
+        </div>
         <div className={styles.linkContainer}>
           <ul className={styles.linkList}>
             <li>
