@@ -3,7 +3,7 @@ import CustomHead from "../components/customHead";
 import Navigation from "../components/navigation";
 import Footer from "../components/footer";
 
-const Layout = ({pageName, children, showFooter = false, isHome = false}) =>{
+const Layout = ({pageName, children, showFooter = false}) =>{
     let footer;
 
     if(showFooter){
@@ -13,7 +13,7 @@ const Layout = ({pageName, children, showFooter = false, isHome = false}) =>{
     return (
         <div className={styles.container}>
             <CustomHead pageName={pageName}/>
-            <Navigation isHome={isHome}></Navigation>
+            <Navigation></Navigation>
             <main className={styles.main}>
                 {children}
             </main>

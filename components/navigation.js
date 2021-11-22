@@ -2,7 +2,7 @@ import styles from "../styles/Navigation.module.scss";
 import HamburgerMenu from "../components/hamburger-menu";
 import Link from "next/link";
 
-const Navigation = ({isHome = false}) => {
+const Navigation = () => {
   const[open, setNavOpen] = React.useState("");
 
   function toggleOpen(){
@@ -11,7 +11,7 @@ const Navigation = ({isHome = false}) => {
 
   return (
     <header>
-      <nav className={styles.navigation} open={open} isHome={isHome}>
+      <nav className={styles.navigation} open={open} >
         <div className={styles.headerContent}>
           <Link href="/">
             <a className={styles.homeLink}>
