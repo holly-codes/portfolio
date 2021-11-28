@@ -1,6 +1,7 @@
-import styles from "../styles/Footer.module.scss";
+import React from 'react';
+import styles from '../styles/Footer.module.scss';
 
-const Footer = () => {
+const Footer = function() {
   return (
     <footer className={styles.footer}>
       <div className={styles.copyright}>
@@ -8,16 +9,16 @@ const Footer = () => {
       </div>
       <div className={styles.footerLinks}>
         <a href="https://github.com/holly-codes/">
-          <i className="fab fa-github fa-2x"></i>
+          <i className="fab fa-github fa-2x" />
         </a>
         <a href="https://codepen.io/holly-codes">
-          <i className="fab fa-codepen fa-2x"></i>
+          <i className="fab fa-codepen fa-2x" />
         </a>
         <a href="https://www.linkedin.com/in/holly-burinda-33950964">
-          <i className="fab fa-linkedin-in fa-2x"></i>
+          <i className="fab fa-linkedin-in fa-2x" />
         </a>
         <a href="mailto:hello@holly-codes.com">
-          <i className="far fa-envelope fa-2x"></i>
+          <i className="far fa-envelope fa-2x"/>
         </a>
       </div>
     </footer>

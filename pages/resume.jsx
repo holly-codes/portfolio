@@ -1,11 +1,12 @@
-import Layout from "../components/layout";
-import styles from "../styles/Resume.module.scss";
-import utils from "../styles/utils.module.scss";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
+import Layout from '../components/layout';
+import styles from '../styles/Resume.module.scss';
+import utils from '../styles/utils.module.scss';
 
-const Resume = () => {
+const Resume = function() {
   return (
-    <Layout pageName="Resume" showFooter="true">
+    <Layout pageName="Resume" showFooter>
         <div className={styles.resumeContent}>
           <div className={styles.headerContent}>
             <h1>Resume</h1>
@@ -196,7 +197,7 @@ const Resume = () => {
                   <span className={utils.magicalUnderline}>
                     <Link href="/projects">Projects page</Link>
                   </span>
-                  , under "Past Professional Projects".
+                  , under &quot;Past Professional Projects&quot;.
                 </p>
               </div>
               <div className={styles.jobCard}>

@@ -1,6 +1,8 @@
 import Head from 'next/head';
+import PropTypes from 'prop-types';
+import React from 'react';
 
-const CustomHead = ({pageName}) => {
+const CustomHead = function({pageName}) {
     return (
         <Head>
             <title>{pageName} | Holly Codes</title>
@@ -24,6 +26,14 @@ const CustomHead = ({pageName}) => {
             />
       </Head>
     );
+}
+
+CustomHead.propTypes = {
+    pageName: PropTypes.string
+}
+
+CustomHead.defaultProps = {
+    pageName: "Home"
 }
 
 export default CustomHead;

@@ -1,40 +1,35 @@
-import styles from "../styles/Navigation.module.scss";
-import HamburgerMenu from "../components/hamburger-menu";
 import Link from "next/link";
+import React from "react";
+import styles from "../styles/Navigation.module.scss";
+import HamburgerMenu from "./hamburger-menu";
 
-const Navigation = () => {
+const Navigation = function() {
   const[open, setNavOpen] = React.useState("");
-
-  function toggleOpen(){
-    setNavOpen(!open);
-  }
 
   return (
     <header>
       <nav className={styles.navigation} open={open} >
         <div className={styles.headerContent}>
-          <Link href="/">
-            <a className={styles.homeLink}>
-              <img src="/images/logo-larger.png" className={styles.headerImage} />
-            </a>
+          <Link href="/" className={styles.homeLink}>
+              <img src="/images/logo-larger.png" className={styles.headerImage} alt="Circle with hand drawn lavender sprig inside, with the letters H and B" />
           </Link>
-          <HamburgerMenu setMobileNavOpen={toggleOpen}/>
+          <HamburgerMenu setMobileNavOpen={setNavOpen}/>
         </div>
         <div className={styles.linkContainer}>
           <ul className={styles.linkList}>
             <li>
               <Link href="/about">
-                <a>About</a>
+                About
               </Link>
             </li>
             <li>
               <Link href="/projects">
-                <a>Projects</a>
+                Projects
               </Link>
             </li>
             <li>
               <Link href="/resume">
-                <a>Resume</a>
+                Resume
               </Link>
             </li> 
           </ul>

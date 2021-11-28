@@ -1,13 +1,18 @@
-import Layout from "../components/layout";
-import styles from "../styles/Projects.module.scss";
-import utils from "../styles/utils.module.scss";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
+import Layout from '../components/layout';
+import styles from '../styles/Projects.module.scss';
+import utils from '../styles/utils.module.scss';
 
-const Projects = () => {
+const Projects = function() {
   return (
-    <Layout pageName="Projects" showFooter="true">
+    <Layout pageName="Projects" showFooter>
         <div className={styles.content}>
           <h1>Projects</h1>
+          <span className={utils.dashedHeader}>
+            <h2>Recent CodePens</h2>
+          </span>
+          <div className={styles.projectsContainer} />
           <span className={utils.dashedHeader}>
             <h2>Past Professional Projects</h2>
           </span>
@@ -21,7 +26,7 @@ const Projects = () => {
                 <h3>iRobot - Brand Refresh Project</h3>
                 <span className={utils.magicalUnderline}>
                   <Link href="https://www.irobot.com">
-                    <a>Website</a>
+                    Website
                   </Link>
                 </span>
                 <h4>Technologies Used:</h4>
@@ -42,7 +47,7 @@ const Projects = () => {
                     <li>The family tiles rendering, displaying the various product series on the homepage</li>
                     <li>The footer</li>
                     <li>The link button in the header</li>
-                    <li>Product tiles on series pages, such as <span className={utils.magicalUnderline}><Link href="https://www.irobot.com/roomba/s-series"><a>the Roomba s series page</a></Link></span></li>
+                    <li>Product tiles on series pages, such as <span className={utils.magicalUnderline}><Link href="https://www.irobot.com/roomba/s-series">the Roomba s series page</Link></span></li>
                     <li>Many updates to personalization platform components</li>
                   </ul>
               </div>
@@ -56,7 +61,7 @@ const Projects = () => {
                 <h3>University of Chicago Medicine</h3>
                 <span className={utils.magicalUnderline}>
                   <Link href="https://www.uchicagomedicine.org">
-                    <a>Website</a>
+                    Website
                   </Link>
                 </span>
                 <h4>Technologies Used:</h4>
@@ -89,7 +94,7 @@ const Projects = () => {
                 <h3>University of Chicago Medicine - Forefront</h3>
                 <span className={utils.magicalUnderline}>
                   <Link href="https://www.uchicagomedicine.org/forefront">
-                    <a>Website</a>
+                    Website
                   </Link>
                 </span>
                 <h4>Technologies Used:</h4>
@@ -138,13 +143,13 @@ const Projects = () => {
                 <h3>holly-codes.com</h3>
                 <span className={utils.magicalUnderline}>
                   <Link href="https://www.holly-codes.com">
-                    <a>Website</a>
+                    Website
                   </Link>
                 </span>
                 <br />
                 <span className={utils.magicalUnderline}>
                   <Link href="https://github.com/holly-codes/portfolio">
-                    <a>GitHub</a>
+                    GitHub
                   </Link>
                 </span>
                 <h4>Technologies Used:</h4>
@@ -165,16 +170,16 @@ const Projects = () => {
                 <p>
                   This website also gave me a chance to work on my responsive
                   site coding and design skills, which is definitely something
-                  I've never done before this, since I've been a career-long
+                  I&apos;ve never done before this, since I&apos;ve been a career-long
                   backend developer. This was a real challenge to build for me,
                   and really pushed me out of my comfort zone.
                 </p>
                 <p>
-                  As I'm sure you can guess, my design skills were another thing
+                  As I&apos;m sure you can guess, my design skills were another thing
                   I wanted to practice while building this site. I took
                   inspiration from a shot I found on dribbble for the homepage,
                   then used the aesthetic on the homepage to create the rest.
-                  I'm sure that it's not the flashiest or best design, but I'm
+                  I&apos;m sure that it&apos;s not the flashiest or best design, but I&apos;m
                   working on improving my design skills as well.
                 </p>
               </div>

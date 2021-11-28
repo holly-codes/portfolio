@@ -23,6 +23,12 @@
   }
 
   .headerContent {
+    img {
+      margin-left: 2rem;
+      max-width: 5rem;
+      cursor: pointer;
+    }
+
     @media all and (max-width: 500px) {
       display: flex;
       flex-direction: row;
@@ -33,13 +39,6 @@
   }
 
   .homeLink {
-    margin-left: 2rem;
-    margin-top: 2rem;
-
-    img {
-      max-width: 5rem;
-    }
-
     @media all and (max-width: 500px) {
       align-self: center;
       justify-content: center;
