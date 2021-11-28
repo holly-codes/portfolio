@@ -21,6 +21,13 @@
   flex-flow: column;
 }
 
+.codePenContainer {
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 2rem;
+}
+
 .projectCard {
   display: flex;
   flex: 1;
@@ -34,6 +41,7 @@
   img {
     width: 40%;
     align-self: flex-start;
+    margin: 0 2rem;
   }
 }
 

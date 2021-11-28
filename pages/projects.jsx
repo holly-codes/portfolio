@@ -1,6 +1,8 @@
+/* eslint-disable react/style-prop-object */
 import React from 'react';
 import Link from 'next/link';
 import Layout from '../components/layout';
+import CodePenEmbed from '../components/codePenEmbed';
 import styles from '../styles/Projects.module.scss';
 import utils from '../styles/utils.module.scss';
 
@@ -12,7 +14,10 @@ const Projects = function() {
           <span className={utils.dashedHeader}>
             <h2>Recent CodePens</h2>
           </span>
-          <div className={styles.projectsContainer} />
+          <div className={styles.codePenContainer}>
+            <CodePenEmbed penId="PoKMpRW" penName="Manila Folder Link List" embedHeight={650} numColumns={3}/>
+            <CodePenEmbed penId="gvbxXq" penName="100 Days of CSS Banner" embedHeight={400} />
+          </div>
           <span className={utils.dashedHeader}>
             <h2>Past Professional Projects</h2>
           </span>
@@ -53,10 +58,6 @@ const Projects = function() {
               </div>
             </div>
             <div className={styles.projectCard}>
-              <img
-                src="/images/ucm-home.png"
-                alt="Screenshot of UChicago Medicine homepage"
-              />
               <div className={styles.projectInfo}>
                 <h3>University of Chicago Medicine</h3>
                 <span className={utils.magicalUnderline}>
@@ -84,6 +85,10 @@ const Projects = function() {
                   of the website.
                 </p>
               </div>
+              <img
+                src="/images/ucm-home.png"
+                alt="Screenshot of UChicago Medicine homepage"
+              />
             </div>
             <div className={styles.projectCard}>
               <img
@@ -135,10 +140,6 @@ const Projects = function() {
           </span>
           <div className={styles.projectsContainer}>
             <div className={styles.projectCard}>
-              <img
-                src="/images/holly-codes.png"
-                alt="Screenshot of holly-codes.com homepage"
-              />
               <div className={styles.projectInfo}>
                 <h3>holly-codes.com</h3>
                 <span className={utils.magicalUnderline}>
@@ -158,6 +159,7 @@ const Projects = function() {
                   <li>CSS3</li>
                   <li>NextJS</li>
                   <li>Flexbox</li>
+                  <li>CSS Grid</li>
                 </ul>
                 <p>
                   I decided to create this website both as a way to display my
@@ -183,6 +185,10 @@ const Projects = function() {
                   working on improving my design skills as well.
                 </p>
               </div>
+              <img
+                src="/images/holly-codes.png"
+                alt="Screenshot of holly-codes.com homepage"
+              />
             </div>
           </div>
         </div>
