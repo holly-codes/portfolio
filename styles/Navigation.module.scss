@@ -8,7 +8,7 @@
   margin: 2rem 0;
   padding-bottom: 1rem;
 
-  @media all and (max-width: 500px) {
+  @media all and (max-width: 900px) {
     padding-bottom: 0;
   }
 
@@ -29,7 +29,7 @@
       cursor: pointer;
     }
 
-    @media all and (max-width: 500px) {
+    @media all and (max-width: 900px) {
       display: flex;
       flex-direction: row;
       padding-bottom: 2rem;
@@ -39,7 +39,7 @@
   }
 
   .homeLink {
-    @media all and (max-width: 500px) {
+    @media all and (max-width: 900px) {
       align-self: center;
       justify-content: center;
       margin: 0;
@@ -50,7 +50,7 @@
     }
   }
 
-  @media all and (max-width: 500px) {
+  @media all and (max-width: 900px) {
     flex-direction: column;
   }
 }
@@ -62,7 +62,7 @@
   flex: 1;
   transition: all 0.3s linear;
 
-  @media all and (max-width: 500px) {
+  @media all and (max-width: 900px) {
     align-self: flex-start;
     width: 100%;
     opacity: 0;
@@ -84,7 +84,7 @@
   justify-content: flex-start;
   align-items: flex-start;
 
-  @media all and (max-width: 500px) {
+  @media all and (max-width: 900px) {
     flex-direction: column;
     margin: 0;
     padding-left: 0;
@@ -127,7 +127,7 @@
         transition: all 0.3s linear;
         opacity: 0;
 
-        @media all and (max-width: 500px) {
+        @media all and (max-width: 900px) {
           max-height: 500px;
           opacity: 1;
 
@@ -142,7 +142,7 @@
 }
 
 .logo {
-  @media all and (max-width: 500px) {
+  @media all and (max-width: 900px) {
     margin: 0;
   }
 }

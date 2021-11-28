@@ -48,4 +48,5 @@ CodePenEmbed.propTypes = {
 CodePenEmbed.defaultProps = {
     numColumns: 1
 }
+
 export default CodePenEmbed;

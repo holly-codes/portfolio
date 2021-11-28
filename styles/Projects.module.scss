@@ -10,6 +10,10 @@
   h2 {
     margin-top: 2rem;
   }
+
+  @media all and (max-width: 900px) {
+    margin: 1rem;
+  }
 }
 
 .projectsContainer {
@@ -26,6 +30,11 @@
   display: grid;
   grid-template-columns: repeat(3, 2fr);
   gap: 2rem;
+
+  @media all and (max-width: 900px) {
+    grid-template-columns: 1fr;
+    gap: 2rem 0;
+  }
 }
 
 .projectCard {
@@ -42,6 +51,11 @@
     width: 40%;
     align-self: flex-start;
     margin: 0 2rem;
+
+    @media all and (max-width: 900px) {
+      width: 100%;
+      margin: 1rem 0;
+    }
   }
 }
 
@@ -60,21 +74,9 @@
 .projectInfo {
   flex: 2;
   margin-left: 2rem;
-}
 
-@media (max-width: 900px) {
-  .projectInfo {
+  @media all and (max-width: 900px) {
     flex: 1;
     margin-left: 0;
-  }
-
-  .content {
-    margin: 1rem;
-  }
-
-  .projectCard {
-    img {
-      width: 100%;
-    }
   }
 }
