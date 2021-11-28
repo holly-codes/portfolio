@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-bind */
 import Link from "next/link";
 import React from "react";
 import styles from "../styles/Navigation.module.scss";
@@ -6,6 +7,10 @@ import HamburgerMenu from "./hamburger-menu";
 const Navigation = function() {
   const[open, setNavOpen] = React.useState("");
 
+  function toggleNav(){
+    setNavOpen(!open);
+  }
+
   return (
     <header>
       <nav className={styles.navigation} open={open} >
@@ -13,7 +18,7 @@ const Navigation = function() {
           <Link href="/" className={styles.homeLink}>
               <img src="/images/logo-larger.png" className={styles.headerImage} alt="Circle with hand drawn lavender sprig inside, with the letters H and B" />
           </Link>
-          <HamburgerMenu setMobileNavOpen={setNavOpen}/>
+          <HamburgerMenu setMobileNavOpen={toggleNav}/>
         </div>
         <div className={styles.linkContainer}>
           <ul className={styles.linkList}>
