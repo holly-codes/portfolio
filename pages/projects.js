@@ -3,7 +3,61 @@ import styles from "../styles/Projects.module.scss";
 import utils from "../styles/utils.module.scss";
 import Link from "next/link";
 
-const Projects = () => {
+export async function getStaticProps(){
+  const spaceId = process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID;
+  const accessToken = process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN;
+  
+  console.log(spaceId);
+  console.log(accessToken);
+
+  const response = await fetch(
+    `https://graphql.contentful.com/content/v1/spaces/${spaceId}`,
+    {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json',
+        authorization: `Bearer ${accessToken}`
+      },
+      body: JSON.stringify({
+        query:
+          `projectsSectionCollection {
+            items {
+              sectionName
+              projectsCollection {
+                items {
+                  ... on Project {
+                    projectName
+                    imageUrl
+                    imageAltText
+                    websiteUrl
+                    gitHubUrl
+                    description {
+                      json
+                    }
+                  }
+                  ... on Technology {
+                    technologyName
+                  }
+                }
+              }
+            }
+          }
+        }`        
+      })
+    }
+  );
+  console.log(response);
+
+  const {data} = await response.json();
+
+  return {
+    props: {
+      projectSections: data.projectSections.items
+    }
+  }
+}
+
+const Projects = ({projectSections}) => {
   return (
     <Layout pageName="Projects" showFooter="true">
         <div className={styles.content}>
