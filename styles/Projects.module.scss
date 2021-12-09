@@ -16,15 +16,6 @@
   }
 }
 
-.projectsContainer {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  flex-wrap: column;
-  align-items: center;
-  flex-flow: column;
-}
-
 .codePenContainer {
   margin: 2rem 0;
   display: grid;
@@ -34,49 +25,5 @@
   @media all and (max-width: 900px) {
     grid-template-columns: 1fr;
     gap: 2rem 0;
-  }
-}
-
-.projectCard {
-  display: flex;
-  flex: 1;
-  width: 100%;
-  padding: 2rem;
-  margin-top: 2rem;
-  flex-wrap: wrap;
-  border: 1px solid lightgrey;
-  border-radius: 25px;
-
-  img {
-    width: 40%;
-    align-self: flex-start;
-    margin: 0 2rem;
-
-    @media all and (max-width: 900px) {
-      width: 100%;
-      margin: 1rem 0;
-    }
-  }
-}
-
-.technologies {
-  list-style: none;
-
-  li {
-    margin-left: 0;
-
-    &::marker {
-      content: "✨";
-    }
-  }
-}
-
-.projectInfo {
-  flex: 2;
-  margin-left: 2rem;
-
-  @media all and (max-width: 900px) {
-    flex: 1;
-    margin-left: 0;
   }
 }

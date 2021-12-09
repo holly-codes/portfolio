@@ -10,6 +10,7 @@
     "deploy": "next build && next export"
   },
   "dependencies": {
+    "@contentful/rich-text-react-renderer": "^15.6.2",
     "@fortawesome/fontawesome-free": "^5.15.2",
     "next": "^12.0.4",
     "prop-types": "^15.7.2",
