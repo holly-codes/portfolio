@@ -21,42 +21,6 @@
   }
 }
 
-.resumeSection {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.jobsContainer {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  flex-wrap: column;
-  align-items: center;
-  flex-flow: column;
-}
-
-.jobCard {
-  margin-top: 2rem;
-  width: 100%;
-  padding: 2rem;
-  flex-wrap: wrap;
-  border: 1px solid lightgrey;
-  border-radius: 25px;
-}
-
-.technologies {
-  li {
-    padding-left: 0.5rem;
-    margin-bottom: 0.5rem;
-
-    &::marker {
-      content: "✨";
-    }
-  }
-}
-
 .downloadButton {
   padding: 1rem;
   background: #6d6285;
