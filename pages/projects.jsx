@@ -72,6 +72,7 @@ const Projects = function({projectSections}) {
           </span>
           <div className={styles.codePenContainer}>
             <CodePenEmbed penId="PoKMpRW" penName="Manila Folder Link List" embedHeight={650} numColumns={3}/>
+            <CodePenEmbed penId="eYGgzBp" penName="Frontend Mentor | 3-column Preview Card Component" embedHeight={650} numColumns={3}/>
             <CodePenEmbed penId="gvbxXq" penName="100 Days of CSS Banner" embedHeight={400}/>
           </div>
           {projectSections.map(section => (<ProjectsSection key={section.sectionName} projectsSection={section}/>))}
