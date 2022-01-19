@@ -67,7 +67,7 @@ const Resume = function({resumeSections}) {
         <div className={styles.resumeContent}>
           <div className={styles.headerContent}>
             <h1>Resume</h1>
-            <a href="https://holly-codes.com/Holly-Burinda-Resume-2021.pdf" className={styles.downloadButton} download="Holly Burinda Resume 2021">Download a PDF copy of my resume!</a>
+            <a href="https://holly-codes.com/Holly-Burinda-Resume.pdf" className={styles.downloadButton} download="Holly Burinda Resume">Download a PDF copy of my resume!</a>
           </div>
           
           {resumeSections.map(section => (<ResumeSection key={section.sectionName} resumeSection={section}/>))}
