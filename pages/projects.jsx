@@ -71,7 +71,6 @@ const Projects = function({projectSections}) {
             <h2>Recent CodePens</h2>
           </span>
           <div className={styles.codePenContainer}>
-            <CodePenEmbed penId="PoKMpRW" penName="Manila Folder Link List" embedHeight={650} numColumns={3}/>
             <CodePenEmbed penId="eYGgzBp" penName="Frontend Mentor | 3-column Preview Card Component" embedHeight={650} numColumns={3}/>
             <CodePenEmbed penId="gvbxXq" penName="100 Days of CSS Banner" embedHeight={400}/>
           </div>
