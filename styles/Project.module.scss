@@ -18,19 +18,20 @@
       margin: 1rem 0;
     }
   }
-}
 
-.technologies {
-  list-style: none;
+  ul{
+    list-style: none;
 
-  li {
-    margin-left: 0;
-
-    &::marker {
-      content: "✨";
+    li {
+      margin-left: 0;
+  
+      &::marker {
+        content: "✨";
+      }
     }
   }
 }
+
 
 .projectInfo {
   flex: 2;
