@@ -5,7 +5,7 @@ import styles from '../styles/Hamburger.module.scss';
 const HamburgerMenu = function({setMobileNavOpen}) {
     return (
         <button type="button" className={styles.hamburger} 
-            onClick={setMobileNavOpen}>
+            onClick={setMobileNavOpen} aria-label="Click to open menu">
             <div className={styles.barOne} />
             <div className={styles.barTwo} />
             <div className={styles.barThree} />
