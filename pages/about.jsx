@@ -16,7 +16,7 @@ const About = function() {
             />
             <h1>Hi! Nice to meet you!</h1>
             <h2>I&apos;m Holly.</h2>
-            <p>You probably knew that, though, since you ended up here.</p>
+            <p>You probably knew that, though, since you ended up here. Let&apos;s get to know each other!</p>
             <h2>I&apos;m a developer.</h2>
             <p>
               I graduated with a bachelor&apos;s in Computer Science in 2012 from the
@@ -32,14 +32,20 @@ const About = function() {
               </span>{" "}
               page. I started my career as a backend developer by trade, then spent the better part of 
               5 years learning more frontend skills on my own and then pivoted to be a fullstack developer. 
-              Now, I spend my days working in a frontend focused fullstack role, and I absolutely love the 
-              new challenges that this role brings. 
+              Now, I spend my days working in a frontend engineer role at Trello, and I absolutely love the 
+              new challenges that this role brings. I&apos;ve spent the last 2 years professionally growing,
+              keeping my skills honed, so that I can build the best possible products with the best possible
+              experiences.
             </p>
             <h2>What am I learning?</h2>
             <p>
               Well, right now, I&apos;m learning *gestures broadly at this site*{" "}
               <i>this</i>. This site uses HTML,
               SASS, Flexbox, GraphQL, and NextJS (and by extension, ReactJS).
+            </p>
+            <p>
+              This site is a placeholder, and I&apos;m currently redoing the design (and code!) to be more in line with my 
+              current skillset. Keep an eye out for an updated design and updated code stack!
             </p>
             <p>
               My pet projects live over on the{" "}

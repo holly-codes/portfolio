@@ -81,7 +81,7 @@ const Projects = function({projectSections}) {
 }
 
 Projects.propTypes = {
-  projectSections: PropTypes.arrayOf(PropTypes.object).isRequired
+  projectSections: PropTypes.arrayOf(PropTypes.shape({})).isRequired
 }
 
 export default Projects;

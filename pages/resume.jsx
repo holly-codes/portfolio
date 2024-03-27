@@ -77,7 +77,7 @@ const Resume = function({resumeSections}) {
 }
 
 Resume.propTypes = {
-  resumeSections: PropTypes.objectOf(PropTypes.object).isRequired
+  resumeSections: PropTypes.objectOf(PropTypes.shape({})).isRequired
 }
 
 export default Resume;
