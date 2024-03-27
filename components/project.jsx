@@ -30,8 +30,8 @@ Project.propTypes = {
     imageAltText: PropTypes.string.isRequired,
     projectName: PropTypes.string.isRequired,
     websiteUrl: PropTypes.string.isRequired,
-    technologies: PropTypes.arrayOf(PropTypes.object).isRequired,
-    description: PropTypes.objectOf(PropTypes.object).isRequired
+    technologies: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
+    description: PropTypes.objectOf(PropTypes.shape({})).isRequired
 }
 
 export default Project;

@@ -15,13 +15,15 @@ const ResumeJob = function({job}) {
                 {job.timeSpan}
                 </em>
             </p>
-            {job.contentSectionsCollection.items.map(section => <JobContentSection key={section.sectionName} section={section}/>)}
+            {
+            // eslint-disable-next-line react/prop-types
+            job.contentSectionsCollection.items.map(section => <JobContentSection key={section.sectionName} section={section}/>)}
         </div>
     )
 }
 
 ResumeJob.propTypes = {
-    job: PropTypes.objectOf(PropTypes.object).isRequired
+    job: PropTypes.objectOf(PropTypes.shape({})).isRequired
 }
 
 export default ResumeJob;

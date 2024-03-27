@@ -12,7 +12,7 @@ const JobSection = function({jobs}) {
 }
 
 JobSection.propTypes = {
-    jobs: PropTypes.objectOf(PropTypes.object).isRequired
+    jobs: PropTypes.objectOf(PropTypes.shape({})).isRequired
 }
 
 export default JobSection;

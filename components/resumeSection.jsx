@@ -12,14 +12,18 @@ const ResumeSection = function({resumeSection}){
               <h2>{resumeSection.sectionName}</h2>
             </span>
             {resumeSection.sectionContent ? 
+
+            // eslint-disable-next-line react/prop-types
                 documentToReactComponents(resumeSection.sectionContent.json) : ""}
-            {resumeSection.jobsCollection.items.map(job => <ResumeJob key={job.companyName} job={job}/>)}
+            {
+            // eslint-disable-next-line react/prop-types
+            resumeSection.jobsCollection.items.map(job => <ResumeJob key={job.companyName} job={job}/>)}
         </div>
     )
 }
 
 ResumeSection.propTypes = {
-    resumeSection: PropTypes.objectOf(PropTypes.object).isRequired
+    resumeSection: PropTypes.objectOf(PropTypes.shape({})).isRequired
 }
 
 export default ResumeSection;

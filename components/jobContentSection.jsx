@@ -6,13 +6,15 @@ const JobContentSection = function ({section}) {
     return(
         <>
             <h4>{section.sectionTitle}</h4>
-            {documentToReactComponents(section.sectionContent.json)}
+            {
+            // eslint-disable-next-line react/prop-types
+            documentToReactComponents(section.sectionContent.json)}
         </>
     )
 }
 
 JobContentSection.propTypes = {
-    section: PropTypes.objectOf(PropTypes.object).isRequired
+    section: PropTypes.objectOf(PropTypes.shape({})).isRequired
 }
 
 export default JobContentSection;

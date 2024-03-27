@@ -11,7 +11,9 @@ const ProjectsSection = function({projectsSection}) {
             <h2>{projectsSection.sectionName}</h2>
           </span>
           <div className={styles.projectsContainer}>
-            {projectsSection.projectsCollection.items.map(project => 
+            {
+            // eslint-disable-next-line react/prop-types
+            projectsSection.projectsCollection.items.map(project => 
                 (<Project key={project.projectName} 
                          imageUrl={project.imageUrl} 
                          imageAltText={project.imageAltText} 
@@ -25,7 +27,7 @@ const ProjectsSection = function({projectsSection}) {
 }
 
 ProjectsSection.propTypes = {
-    projectsSection: PropTypes.objectOf(PropTypes.object).isRequired
+    projectsSection: PropTypes.objectOf(PropTypes.shape({})).isRequired
 }
 
 export default ProjectsSection;
