@@ -45,7 +45,9 @@ const About = function() {
             </p>
             <p>
               This site is a placeholder, and I&apos;m currently redoing the design (and code!) to be more in line with my 
-              current skillset. Keep an eye out for an updated design and updated code stack!
+              current skillset. Keep an eye out for an updated design and updated code stack! Specifically, since this site is 
+              a couple of years old, I will be rewriting this in TypeScript, will make use of React hooks and better use of functional
+              components, and will be modernizing the CSS.
             </p>
             <p>
               My pet projects live over on the{" "}
