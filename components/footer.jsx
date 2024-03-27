@@ -5,7 +5,7 @@ const Footer = function() {
   return (
     <footer className={styles.footer}>
       <div className={styles.copyright}>
-        <p>&copy; 2021 - Holly Burinda</p>
+        <p>&copy; 2024 - Holly Burinda</p>
       </div>
       <div className={styles.footerLinks}>
         <a href="https://github.com/holly-codes/" aria-label="GitHub">
